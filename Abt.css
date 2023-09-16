@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+
+body{
+ background-color: #ffa61f ;
+ margin-top: 20px;
+ margin-left: 20px;
+  
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:  lightskyblue;
+  padding: 20px 10% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  opacity: 10;
+}
+
+.logo {
+  font-size: 30px;
+  position: fixed;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ededed;
+}
+
+.navbar a {
+  font-size: 25px;
+  color: whitesmoke ;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+  
+}
+.navbar .divider1 {
+
+  FONT-WEIGHT: 150px;
+  FONT-SIZE: 25px;
+  margin-left: 15px;
+  COLOR: rgb(226, 43, 134);
+  FONT-FAMILY: tahoma;
+  TEXT-DECORATION: none;
+}
+
+.navbar a:hover {
+  color: red ;
+}
+
+main{
+  text-decoration: none;
+  position: fixed;
+  margin-top: 100px;
+  margin-right: 10px;
+
+}
+main h1 {
+  text-decoration: none;
+  color: rebeccapurple;
+  padding: 1cap 0rem infinite;
+  margin-bottom: 10px;
+  background-color: aqua;
+  transition: 0.5s;
+
+}
+
+main h1:hover{
+  color:red;
+}
+
+main h1 a {
+  text-decoration: none;
+}
+
+main ol {
+  font-size:large;
+  margin-bottom: 20px;
+}
+
+main li {
+  margin-left: 15px;
+  list-style:square;
+  margin-bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:larger;
+}
+
